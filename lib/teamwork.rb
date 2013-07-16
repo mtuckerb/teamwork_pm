@@ -19,7 +19,7 @@ class TeamWork
  	end
 
 	def parse_time()
-		#  Not used(0) Group Name, (1) Group Cost, (2) Tax 1, (3) Tax 2, (4) Group Cost w/ Tax, (5) Group Time,
+		# (0) Group Name, (1) Group Cost, (2) Tax 1, (3) Tax 2, (4) Group Cost w/ Tax, (5) Group Time,
 		# (6) Cost ,(7) Tax 1, (8) Tax 2, (9) Cost w/ Tax, (10) Quantity, (11) Time, (12) Start Date, (13) End Date
 		# (14) Description, (15) Note
 		

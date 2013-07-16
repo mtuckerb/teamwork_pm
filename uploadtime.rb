@@ -16,7 +16,7 @@ end
 Trollop::die :api_key, "--api_key is a required argument" unless opts[:api_key]
 
 # Set this to your organization 
-BASE_URL = "https://#{opts[:api_key]}@<your subdomain>.teamworkpm.net/"
+BASE_URL = "https://#{opts[:api_key]}@whitecrow.teamworkpm.net/"
 
 unless opts[:list_people] || opts[:list_projects]
 	Trollop::die :file, "must specify a file with --file <filename>" unless  opts[:file] 
